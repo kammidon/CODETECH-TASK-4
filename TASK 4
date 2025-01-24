@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Learning Platform</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">
+      <h1>E-Learn</h1>
+    </div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#login">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <h2>Learn From Anywhere, Anytime</h2>
+      <p>Access thousands of online courses from industry experts.</p>
+      <a href="#courses" class="cta-button">Explore Courses</a>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses">
+    <div class="container">
+      <h2>Popular Courses</h2>
+      <div class="course-cards">
+        <div class="course-card">
+          <img src="https://via.placeholder.com/200" alt="Course 1">
+          <h3>Web Development</h3>
+          <p>Learn the fundamentals of web development and build modern websites.</p>
+          <a href="#course-details" class="cta-button">Enroll Now</a>
+        </div>
+        <div class="course-card">
+          <img src="https://via.placeholder.com/200" alt="Course 2">
+          <h3>Data Science</h3>
+          <p>Master data analysis, machine learning, and data visualization techniques.</p>
+          <a href="#course-details" class="cta-button">Enroll Now</a>
+        </div>
+        <div class="course-card">
+          <img src="https://via.placeholder.com/200" alt="Course 3">
+          <h3>Digital Marketing</h3>
+          <p>Learn SEO, social media marketing, content strategy, and more.</p>
+          <a href="#course-details" class="cta-button">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We are an online learning platform dedicated to providing high-quality courses and certifications that can help you build your career and skills.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>If you have any questions, feel free to reach out to us!</p>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="cta-button">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Login Section -->
+  <section id="login">
+    <div class="container">
+      <h2>Login</h2>
+      <form>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit" class="cta-button">Login</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 E-Learn. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
